@@ -165,7 +165,8 @@ function deleteQuote(obj){
 }
 
 function likeQuote(obj, button){
-    console.log(obj)
+    //Optimistic Rendering
+    button.firstElementChild.innerText = (parseInt(button.firstElementChild.innerText) + 1).toString()
     let unixTime = Math.round((new Date()).getTime() / 1000)
     fetch('http://localhost:3000/likes', {
         method: 'POST',
@@ -178,14 +179,14 @@ function likeQuote(obj, button){
             createdAt: unixTime
         })
     })
-    .then(resp => resp.json())
-    .then(respJSON => {
-        fetch(`http://localhost:3000/quotes/${obj.id}?_embed=likes`)
-        .then(resp => resp.json())
-        .then(respJSON => {
-            button.firstElementChild.innerText = respJSON.likes.length
-        })
-    })
+    // .then(resp => resp.json())
+    // .then(respJSON => {
+    //     fetch(`http://localhost:3000/quotes/${obj.id}?_embed=likes`)
+    //     .then(resp => resp.json())
+    //     .then(respJSON => {
+    //         button.firstElementChild.innerText = respJSON.likes.length
+    //     })
+    // })
 }
 
 function editQuote(obj, evt){
