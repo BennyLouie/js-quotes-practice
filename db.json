@@ -51,19 +51,19 @@
       "author": "Sonia Sotomayor"
     },
     {
-      "quote": "Life's REALLY hard... Wear an EXTRA hard Helmet!!!",
+      "quote": "Life's hard... Wear a Helmet!!!",
       "author": "Mr.Batus, Fifth Grade Science Teacher",
       "id": 12
-    },
-    {
-      "quote": "Learn. Love. Code.",
-      "author": "Flatiron School",
-      "id": 13
     },
     {
       "quote": "So sleepy... 😴",
       "author": "Benny Louie",
       "id": 14
+    },
+    {
+      "quote": "I don't got this!!! 😭 ",
+      "author": "Meeee",
+      "id": 15
     }
   ],
   "likes": [
@@ -388,21 +388,6 @@
       "id": 64
     },
     {
-      "quoteId": 13,
-      "createdAt": 1571165117,
-      "id": 68
-    },
-    {
-      "quoteId": 13,
-      "createdAt": 1571165117,
-      "id": 69
-    },
-    {
-      "quoteId": 13,
-      "createdAt": 1571165117,
-      "id": 70
-    },
-    {
       "quoteId": 2,
       "createdAt": 1571168266,
       "id": 71
@@ -471,6 +456,316 @@
       "quoteId": 1,
       "createdAt": 1571170331,
       "id": 84
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1571170393,
+      "id": 85
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1571170394,
+      "id": 86
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1571170395,
+      "id": 87
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1571170395,
+      "id": 88
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170605,
+      "id": 89
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170605,
+      "id": 90
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170605,
+      "id": 91
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 92
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 93
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 94
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 95
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 96
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170606,
+      "id": 97
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170607,
+      "id": 98
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170607,
+      "id": 99
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170608,
+      "id": 100
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170608,
+      "id": 101
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571170608,
+      "id": 102
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171250,
+      "id": 103
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171251,
+      "id": 104
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171368,
+      "id": 105
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171369,
+      "id": 106
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571171373,
+      "id": 107
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571171373,
+      "id": 108
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571171374,
+      "id": 109
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571171374,
+      "id": 110
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571171375,
+      "id": 114
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571171376,
+      "id": 115
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1571171377,
+      "id": 116
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1571171377,
+      "id": 117
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1571171377,
+      "id": 118
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1571171377,
+      "id": 119
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1571171378,
+      "id": 120
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1571171378,
+      "id": 121
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1571171378,
+      "id": 122
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171379,
+      "id": 123
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171379,
+      "id": 124
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171380,
+      "id": 125
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171380,
+      "id": 126
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171380,
+      "id": 127
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171380,
+      "id": 128
+    },
+    {
+      "quoteId": 8,
+      "createdAt": 1571171380,
+      "id": 129
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1571171382,
+      "id": 130
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571171383,
+      "id": 131
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571171383,
+      "id": 132
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571171383,
+      "id": 133
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571171383,
+      "id": 134
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571171385,
+      "id": 135
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1571171386,
+      "id": 136
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171389,
+      "id": 137
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171390,
+      "id": 138
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171391,
+      "id": 139
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171391,
+      "id": 140
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171391,
+      "id": 141
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571171391,
+      "id": 142
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171494,
+      "id": 143
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171494,
+      "id": 144
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171495,
+      "id": 145
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571171495,
+      "id": 146
+    },
+    {
+      "quoteId": 15,
+      "createdAt": 1571173559,
+      "id": 147
+    },
+    {
+      "quoteId": 15,
+      "createdAt": 1571173559,
+      "id": 148
+    },
+    {
+      "quoteId": 15,
+      "createdAt": 1571173559,
+      "id": 149
     }
   ]
 }

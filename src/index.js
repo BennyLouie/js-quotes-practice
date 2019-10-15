@@ -1,5 +1,3 @@
-console.log('New Page!!!')
-
 const quoteUL = document.querySelector('#quote-list')
 const quoteForm = document.querySelector('#new-quote-form')
 
@@ -62,6 +60,7 @@ function sortedQuotes(){
 }
 
 function loadQuotes(){
+    console.log('New Page!!!')
     fetch('http://localhost:3000/quotes?_embed=likes')
     .then(resp => resp.json())
     .then(respJSON => respJSON.forEach(createQuote))
@@ -70,12 +69,14 @@ function loadQuotes(){
 function createQuote(obj){
     const quoteLi = document.createElement('li')
         quoteLi.className = 'quote-card'
+        quoteLi.id = `quote-${obj.id}`
     
     const block = document.createElement('blockquote')
         block.className = 'blockquote'
     
     const p = document.createElement('p')
         p.className = 'mb-0'
+        p.id = `quote-${obj.id}`
         p.innerText = obj.quote
     
     const footer = document.createElement('footer')
@@ -104,28 +105,34 @@ function createQuote(obj){
             deleteQuote(obj)
         })
                 
-    const editForm = document.createElement('form')
+    let editForm = document.createElement('form')
         editForm.id = 'hidden-edit'
         
         const formGroup = document.createElement('div')
         formGroup.className = 'form-group'
         
         const quoteLabel = document.createElement('label')
-        quoteLabel.innerHTML = `<label for="edit-quote">Edit Quote</label>`
+        quoteLabel.innerText = 'Edit Quote'
+        quoteLabel.for = 'edit-quote'
         
         const quoteEdit = document.createElement('input')
-        quoteEdit.innerHTML = `<input type="text" class="form-control" placeholder="">`
+        quoteEdit.value = obj.quote
+        quoteEdit.className = 'form-control'
+        quoteEdit.type = 'text'
         quoteEdit.id = 'edit-quote'
         
         formGroup.append(quoteLabel, quoteEdit)
         
         const submitEdit = document.createElement('button')
-        submitEdit.innerHTML = `<button type="submit" class="btn btn-primary">Submit Edit</button>`
+        submitEdit.type = 'submit'
+        submitEdit.class = 'btn btn-primary'
+        submitEdit.innerText = 'Submit Edit'
                 
     editForm.append(formGroup, submitEdit)
     editForm.addEventListener('submit', evt => {
         evt.preventDefault()
         editQuote(obj, evt)
+        editBtn.innerText = 'Edit Quote'
     })
 
     const editBtn = document.createElement('button')
@@ -141,7 +148,7 @@ function createQuote(obj){
                 editBtn.innerText = 'Close Edit'
             }
             else {
-                editForm.parentNode.removeChild(editForm)
+                editForm.parentElement.removeChild(editForm)
                 editBtn.innerText = 'Edit Quote'
             }
         })
@@ -159,14 +166,15 @@ function deleteQuote(obj){
     })
     .then(resp => resp.json())
     .then(respJSON => {
-        removeChildren(quoteUL)
-        loadQuotes()
+        const removedQuote = document.querySelector(`#quote-${obj.id}`)
+        quoteUL.removeChild(removedQuote)
     })
 }
 
 function likeQuote(obj, button){
     //Optimistic Rendering
-    button.firstElementChild.innerText = (parseInt(button.firstElementChild.innerText) + 1).toString()
+    button.firstElementChild.innerText = parseInt(button.firstElementChild.innerText) + 1
+
     let unixTime = Math.round((new Date()).getTime() / 1000)
     fetch('http://localhost:3000/likes', {
         method: 'POST',
@@ -190,8 +198,8 @@ function likeQuote(obj, button){
 }
 
 function editQuote(obj, evt){
-    console.log(obj)
     let newQuote = evt.target["edit-quote"].value
+    let block = evt.target.parentElement
     if (newQuote === "") {return}
     
     fetch(`http://localhost:3000/quotes/${obj.id}`, {
@@ -206,7 +214,8 @@ function editQuote(obj, evt){
     })
     .then(resp => resp.json())
     .then(respJSON => {
-        removeChildren(quoteUL)
-        loadQuotes()
+        let p = block.querySelector(`#quote-${obj.id}`)
+        p.innerText = respJSON.quote
+        evt.target.parentElement.removeChild(evt.target)
     })
 }
