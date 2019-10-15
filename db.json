@@ -61,19 +61,9 @@
       "id": 13
     },
     {
-      "quote": "Benny's Amazing Quote",
+      "quote": "So sleepy... 😴",
       "author": "Benny Louie",
       "id": 14
-    },
-    {
-      "quote": "Live Life in Waves",
-      "author": "Benny Louie",
-      "id": 15
-    },
-    {
-      "quote": "Sleep is Life",
-      "author": "Benny Louie",
-      "id": 16
     }
   ],
   "likes": [
@@ -398,21 +388,6 @@
       "id": 64
     },
     {
-      "quoteId": 14,
-      "createdAt": 1571165115,
-      "id": 65
-    },
-    {
-      "quoteId": 14,
-      "createdAt": 1571165115,
-      "id": 66
-    },
-    {
-      "quoteId": 14,
-      "createdAt": 1571165116,
-      "id": 67
-    },
-    {
       "quoteId": 13,
       "createdAt": 1571165117,
       "id": 68
@@ -426,6 +401,26 @@
       "quoteId": 13,
       "createdAt": 1571165117,
       "id": 70
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571168266,
+      "id": 71
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571168268,
+      "id": 72
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571169521,
+      "id": 73
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571169521,
+      "id": 74
     }
   ]
 }
