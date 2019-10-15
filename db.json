@@ -1,61 +1,431 @@
 {
   "quotes": [
     {
-        "id": 1,
-        "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-        "author": "Ann Richards"
+      "id": 1,
+      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
+      "author": "Ann Richards"
     },
     {
-        "id": 2,
-        "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
-        "author": "Collin Powell"
+      "id": 2,
+      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+      "author": "Collin Powell"
     },
     {
-        "id": 3,
-        "quote": "Don't count the days, make the days count.",
-        "author": "Mike Tyson"
+      "id": 3,
+      "quote": "Don't count the days, make the days count.",
+      "author": "Mike Tyson"
     },
     {
-        "id": 4,
-        "quote": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, 'I have lived through this horror. I can take the next thing that comes along.' You must do the thing you think you cannot do.",
-        "author": "Eleanor Roosevelt"
+      "id": 4,
+      "quote": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, 'I have lived through this horror. I can take the next thing that comes along.' You must do the thing you think you cannot do.",
+      "author": "Eleanor Roosevelt"
     },
     {
-        "id": 5,
-        "quote": "The cure for boredom is curiosity. There is no cure for curiosity.",
-        "author": "Dorothy Parker"
+      "id": 5,
+      "quote": "The cure for boredom is curiosity. There is no cure for curiosity.",
+      "author": "Dorothy Parker"
     },
     {
-        "id": 6,
-        "quote": "Do the best you can in every task, no matter how unimportant it may seem at the time. No one learns more about a problem than the person at the bottom.",
-        "author": "Sandra Day O'Connor"
+      "id": 6,
+      "quote": "Do the best you can in every task, no matter how unimportant it may seem at the time. No one learns more about a problem than the person at the bottom.",
+      "author": "Sandra Day O'Connor"
     },
     {
-        "id": 7,
-        "quote": "Tell me and I forget, teach me and I remember, involve me and I learn.",
-        "author": "Benjamin Franklin"
+      "id": 7,
+      "quote": "Tell me and I forget, teach me and I remember, involve me and I learn.",
+      "author": "Benjamin Franklin"
     },
     {
-        "id": 8,
-        "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-        "author": "Winston Churchhill"
+      "id": 8,
+      "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchhill"
     },
     {
-        "id": 9,
-        "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
-        "author": "Confucius"
+      "id": 9,
+      "quote": "Our greatest glory is not in never falling, but in rising everytime we fall.",
+      "author": "Confucius"
     },
     {
-        "id": 10,
-        "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
-        "author": "Sonia Sotomayor"
+      "id": 10,
+      "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
+      "author": "Sonia Sotomayor"
+    },
+    {
+      "quote": "Life's REALLY hard... Wear an EXTRA hard Helmet!!!",
+      "author": "Mr.Batus, Fifth Grade Science Teacher",
+      "id": 12
+    },
+    {
+      "quote": "Learn. Love. Code.",
+      "author": "Flatiron School",
+      "id": 13
+    },
+    {
+      "quote": "Benny's Amazing Quote",
+      "author": "Benny Louie",
+      "id": 14
+    },
+    {
+      "quote": "Live Life in Waves",
+      "author": "Benny Louie",
+      "id": 15
+    },
+    {
+      "quote": "Sleep is Life",
+      "author": "Benny Louie",
+      "id": 16
     }
   ],
   "likes": [
     {
-        "id": 1,
-        "quoteId": 1,
-        "createdAt": 1558524356
+      "id": 1,
+      "quoteId": 1,
+      "createdAt": 1558524356
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571150905,
+      "id": 2
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163436,
+      "id": 3
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163485,
+      "id": 4
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163487,
+      "id": 5
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163488,
+      "id": 6
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163488,
+      "id": 7
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163488,
+      "id": 8
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163488,
+      "id": 9
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571163489,
+      "id": 10
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163493,
+      "id": 11
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163497,
+      "id": 12
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163540,
+      "id": 13
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571163542,
+      "id": 14
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571163567,
+      "id": 15
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571163570,
+      "id": 16
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1571163572,
+      "id": 17
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163595,
+      "id": 18
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163628,
+      "id": 19
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163629,
+      "id": 20
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571163632,
+      "id": 21
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571163633,
+      "id": 22
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163636,
+      "id": 23
+    },
+    {
+      "quoteId": 12,
+      "createdAt": 1571163640,
+      "id": 24
+    },
+    {
+      "quoteId": 10,
+      "createdAt": 1571163644,
+      "id": 25
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1571163646,
+      "id": 26
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163700,
+      "id": 27
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163739,
+      "id": 28
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163766,
+      "id": 29
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163774,
+      "id": 30
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163781,
+      "id": 31
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163833,
+      "id": 32
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163982,
+      "id": 33
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571163986,
+      "id": 34
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571163997,
+      "id": 35
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571163999,
+      "id": 36
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164003,
+      "id": 37
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164052,
+      "id": 38
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164089,
+      "id": 39
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164139,
+      "id": 40
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164144,
+      "id": 41
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164164,
+      "id": 42
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164334,
+      "id": 43
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164343,
+      "id": 44
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164344,
+      "id": 45
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571164348,
+      "id": 46
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1571164469,
+      "id": 47
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1571164472,
+      "id": 48
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1571164474,
+      "id": 49
+    },
+    {
+      "quoteId": 5,
+      "createdAt": 1571164476,
+      "id": 50
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571164480,
+      "id": 51
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571164531,
+      "id": 52
+    },
+    {
+      "quoteId": 6,
+      "createdAt": 1571164532,
+      "id": 53
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1571164563,
+      "id": 54
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1571164564,
+      "id": 55
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164629,
+      "id": 56
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164708,
+      "id": 57
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164718,
+      "id": 58
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164729,
+      "id": 59
+    },
+    {
+      "quoteId": 1,
+      "createdAt": 1571164730,
+      "id": 60
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571164732,
+      "id": 61
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571164733,
+      "id": 62
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1571164734,
+      "id": 63
+    },
+    {
+      "quoteId": 4,
+      "createdAt": 1571164734,
+      "id": 64
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571165115,
+      "id": 65
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571165115,
+      "id": 66
+    },
+    {
+      "quoteId": 14,
+      "createdAt": 1571165116,
+      "id": 67
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1571165117,
+      "id": 68
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1571165117,
+      "id": 69
+    },
+    {
+      "quoteId": 13,
+      "createdAt": 1571165117,
+      "id": 70
     }
   ]
 }
