@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+      "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure. HAHAHA",
       "author": "Collin Powell"
     },
     {
@@ -61,8 +61,8 @@
       "id": 14
     },
     {
-      "quote": "I don't got this!!! 😭 ",
-      "author": "Meeee",
+      "quote": "Live Life in Waves",
+      "author": "Benny Louie",
       "id": 15
     }
   ],
@@ -753,19 +753,39 @@
       "id": 146
     },
     {
-      "quoteId": 15,
-      "createdAt": 1571173559,
-      "id": 147
+      "quoteId": 12,
+      "createdAt": 1571175703,
+      "id": 150
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571176033,
+      "id": 151
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571176033,
+      "id": 152
+    },
+    {
+      "quoteId": 2,
+      "createdAt": 1571176034,
+      "id": 153
     },
     {
       "quoteId": 15,
-      "createdAt": 1571173559,
-      "id": 148
+      "createdAt": 1571176091,
+      "id": 154
     },
     {
       "quoteId": 15,
-      "createdAt": 1571173559,
-      "id": 149
+      "createdAt": 1571176091,
+      "id": 155
+    },
+    {
+      "quoteId": 15,
+      "createdAt": 1571176091,
+      "id": 156
     }
   ]
 }
